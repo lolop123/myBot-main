@@ -10,7 +10,7 @@ bot.on('message' , async data =>{
 
     const chatId = data.chat.id
     const text = data.text
-
+    console.log(2);
     const isTttUrl = text.split('/')[2]
 
     if(isTttUrl !== 'vm.tiktok.com') return
